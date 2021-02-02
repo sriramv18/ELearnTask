@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment';
 export class ListViewComponent implements OnInit {
   sampleJSON : any = [];
   DropJSON : number =1;
+  columnsArr: any = [];
   constructor(public restApi : ApiService) { }
 
   ngOnInit(): void {
@@ -20,6 +21,7 @@ export class ListViewComponent implements OnInit {
   fetchData()
   {
       let url = '';
+      this.columnsArr = [];
       if(this.DropJSON==1)
       {
           url = `${environment.mockApiUrl}${'/json-sample-A.json'}`;
@@ -31,6 +33,12 @@ export class ListViewComponent implements OnInit {
       this.restApi.getData(url).subscribe(sampleRes=>
         {
               this.sampleJSON = sampleRes;
+              for (var key in this.sampleJSON[0]) {
+                if (this.sampleJSON[0].hasOwnProperty(key)) {
+                  this.columnsArr.push(key);
+                }
+              }
+              console.log(this.columnsArr);
         })
   }
 
