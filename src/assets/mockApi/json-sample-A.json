@@ -1,0 +1,72 @@
+[
+    {
+        "Id":"00001",
+        "Name":"Manikam",
+        "Age": "23",
+        "Gender": "male",
+        "Contact Number": "9988776688"
+    },
+    {
+        "Id":"00002",
+        "Name":"Naveen",
+        "Age": "26",
+        "Gender": "male",
+        "Contact Number": "9988554433"
+    },
+    {
+        "Id":"00003",
+        "Name":"Shushmi",
+        "Age": "27",
+        "Gender": "female",
+        "Contact Number": "9933445566"
+    },
+    {
+        "Id":"00004",
+        "Name":"Kavi",
+        "Age": "22",
+        "Gender": "female",
+        "Contact Number": "9988553355"
+    },
+    {
+        "Id":"00005",
+        "Name":"Lokesh",
+        "Age": "19",
+        "Gender": "male",
+        "Contact Number": "9922334455"
+    },
+    {
+        "Id":"00006",
+        "Name":"Charles Samuel",
+        "Age": "28",
+        "Gender": "male",
+        "Contact Number": "9933668899"
+    },
+    {
+        "Id":"00007",
+        "Name":"Ibrahim",
+        "Age": "22",
+        "Gender": "male",
+        "Contact Number": "9966338844"
+    },
+    {
+        "Id":"00008",
+        "Name":"Zahir",
+        "Age": "29",
+        "Gender": "male",
+        "Contact Number": "9955229933"
+    },
+    {
+        "Id":"00009",
+        "Name":"Muthu",
+        "Age": "30",
+        "Gender": "male",
+        "Contact Number": "9922776655"
+    },
+    {
+        "Id":"00010",
+        "Name":"Dominic",
+        "Age": "29",
+        "Gender": "male",
+        "Contact Number": "9922336655"
+    }
+]

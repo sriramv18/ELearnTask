@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "elearnTask"
+    }
+  },
+  "defaultProject": "elearnTask",
+  "cli": {
+    "analytics": "24a9977a-0f1e-40bc-a601-f5fbc72fe0e7"
+  }
 }
